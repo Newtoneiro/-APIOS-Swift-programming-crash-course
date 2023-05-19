@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C269C0F71DE5EAA0003D15F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C269C0F61DE5EAA0003D15F4 /* Assets.xcassets */; };
+		C269C0FA1DE5EAA0003D15F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C269C0F81DE5EAA0003D15F4 /* MainMenu.xib */; };
+		C269C1121DE6041C003D15F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269C10F1DE6041C003D15F4 /* AppDelegate.swift */; };
+		C269C1131DE6041C003D15F4 /* FallingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269C1101DE6041C003D15F4 /* FallingView.swift */; };
+		C269C1141DE6041C003D15F4 /* Pilka.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269C1111DE6041C003D15F4 /* Pilka.swift */; };
+		E7F9C3FA2A14E9B400072228 /* Dziura.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F9C3F92A14E9B400072228 /* Dziura.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C269C0F11DE5EAA0003D15F4 /* KulkiSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KulkiSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C269C0F61DE5EAA0003D15F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C269C0F91DE5EAA0003D15F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C269C0FB1DE5EAA0003D15F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C269C10F1DE6041C003D15F4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C269C1101DE6041C003D15F4 /* FallingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallingView.swift; sourceTree = "<group>"; };
+		C269C1111DE6041C003D15F4 /* Pilka.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pilka.swift; sourceTree = "<group>"; };
+		E7F9C3F92A14E9B400072228 /* Dziura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dziura.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C269C0EE1DE5EAA0003D15F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C269C0E81DE5EAA0003D15F4 = {
+			isa = PBXGroup;
+			children = (
+				C269C0F31DE5EAA0003D15F4 /* KulkiSwift */,
+				C269C0F21DE5EAA0003D15F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C269C0F21DE5EAA0003D15F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C269C0F11DE5EAA0003D15F4 /* KulkiSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C269C0F31DE5EAA0003D15F4 /* KulkiSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C269C10E1DE6041C003D15F4 /* Sources */,
+				C269C0F61DE5EAA0003D15F4 /* Assets.xcassets */,
+				C269C0F81DE5EAA0003D15F4 /* MainMenu.xib */,
+				C269C0FB1DE5EAA0003D15F4 /* Info.plist */,
+			);
+			path = KulkiSwift;
+			sourceTree = "<group>";
+		};
+		C269C10E1DE6041C003D15F4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C269C10F1DE6041C003D15F4 /* AppDelegate.swift */,
+				C269C1101DE6041C003D15F4 /* FallingView.swift */,
+				C269C1111DE6041C003D15F4 /* Pilka.swift */,
+				E7F9C3F92A14E9B400072228 /* Dziura.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C269C0F01DE5EAA0003D15F4 /* KulkiSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C269C0FE1DE5EAA0003D15F4 /* Build configuration list for PBXNativeTarget "KulkiSwift" */;
+			buildPhases = (
+				C269C0ED1DE5EAA0003D15F4 /* Sources */,
+				C269C0EE1DE5EAA0003D15F4 /* Frameworks */,
+				C269C0EF1DE5EAA0003D15F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KulkiSwift;
+			productName = KulkiSwift;
+			productReference = C269C0F11DE5EAA0003D15F4 /* KulkiSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C269C0E91DE5EAA0003D15F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Institute of Microelectronics and Optoelectronics";
+				TargetAttributes = {
+					C269C0F01DE5EAA0003D15F4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 53GYE93V59;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C269C0EC1DE5EAA0003D15F4 /* Build configuration list for PBXProject "KulkiSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C269C0E81DE5EAA0003D15F4;
+			productRefGroup = C269C0F21DE5EAA0003D15F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C269C0F01DE5EAA0003D15F4 /* KulkiSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C269C0EF1DE5EAA0003D15F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269C0F71DE5EAA0003D15F4 /* Assets.xcassets in Resources */,
+				C269C0FA1DE5EAA0003D15F4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C269C0ED1DE5EAA0003D15F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269C1141DE6041C003D15F4 /* Pilka.swift in Sources */,
+				C269C1131DE6041C003D15F4 /* FallingView.swift in Sources */,
+				E7F9C3FA2A14E9B400072228 /* Dziura.swift in Sources */,
+				C269C1121DE6041C003D15F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C269C0F81DE5EAA0003D15F4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C269C0F91DE5EAA0003D15F4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C269C0FC1DE5EAA0003D15F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C269C0FD1DE5EAA0003D15F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C269C0FF1DE5EAA0003D15F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 53GYE93V59;
+				INFOPLIST_FILE = KulkiSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imio.pw.KulkiSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C269C1001DE5EAA0003D15F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 53GYE93V59;
+				INFOPLIST_FILE = KulkiSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imio.pw.KulkiSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C269C0EC1DE5EAA0003D15F4 /* Build configuration list for PBXProject "KulkiSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269C0FC1DE5EAA0003D15F4 /* Debug */,
+				C269C0FD1DE5EAA0003D15F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C269C0FE1DE5EAA0003D15F4 /* Build configuration list for PBXNativeTarget "KulkiSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269C0FF1DE5EAA0003D15F4 /* Debug */,
+				C269C1001DE5EAA0003D15F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C269C0E91DE5EAA0003D15F4 /* Project object */;
+}
